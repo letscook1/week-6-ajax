@@ -1,3 +1,54 @@
-<footer id="mainfooter">
-  Copyright &#169; 2019 Michelle Williams
-</footer>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TV Gifs!</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div class=" content">
+      <div class="col-xs-12 col-sm-12 col-md-3 left-column">
+        <div class="page-header">
+          <h1>
+            Transportation<br />
+            <span class="small"
+              >Click on a button below to view some cool gifs, then click on the
+              images to make them move! Also, feel free to add your own.</span
+            >
+          </h1>
+        </div>
+        <form class="form-inline">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="userInput"
+              placeholder="TV Show or Personality"
+            />
+          </div>
+          <button type="submit" class="btn btn-default submit">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+            Add Pick
+          </button>
+        </form>
+
+        <div id="buttonArea"></div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-9 right-column results">
+        <div class="row"></div>
+      </div>
+    </div>
+    <footer id="mainfooter">
+      Copyright &#169; 2019 Michelle Williams
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script type="text/javascript" src="assets/js/gif.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
