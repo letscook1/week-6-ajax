@@ -1,0 +1,166 @@
+body {
+  color: #777777;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+}
+#mainfooter {
+  clear: both;
+  background-color: #666666;
+  color: #ffffff;
+  padding-top: 40px;
+  border-top: solid #4aaaa5 8px;
+  box-sizing: border-box;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: 0;
+  overflow: hidden;
+  z-index: 8;
+}
+
+@media screen and (max-width: 980px) {
+  .topsection {
+    position: relative;
+    width: 100%;
+  }
+
+  .box1 {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topsection {
+    position: relative;
+    width: 100%;
+  }
+
+  .maincontent {
+    width: 100%;
+    position: relative;
+  }
+
+  .box1 {
+    width: 93%;
+  }
+
+  .navbar {
+    margin-right: 4em;
+    margin-left: 0em;
+  }
+
+  #biography {
+    width: 95%;
+    padding: 5px;
+    margin: 7px;
+  }
+
+  #mypicture {
+    width: 150px;
+    float: left;
+    padding: 0px 10px 10px 0px;
+    margin: 0px;
+  }
+
+  .bio {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .formgroup {
+    float: clear both;
+    width: 92%;
+  }
+
+  .portfoliolink {
+    position: relative;
+    margin: 1.5em;
+    width: 43%;
+    float: left;
+  }
+
+  .portfoliotitle {
+    width: 100%;
+    display: block;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-weight: normal;
+    padding: 0.5em 0em;
+    text-align: center;
+    position: absolute;
+    bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  h1 {
+    margin: 0;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    position: static;
+    width: 100%;
+    font-size: 1.6em;
+  }
+
+  #myname {
+    width: 100%;
+    position: static;
+    text-align: center;
+    display: block;
+    overflow: auto;
+    margin-top: 0;
+    padding: 0.5em;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar {
+    width: 100%;
+    margin: 0;
+    padding: 0.2em;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    float: clear both;
+  }
+
+  #biography {
+    width: 100%;
+  }
+
+  #mypicture {
+    width: 75%;
+    padding: 0;
+    margin-left: 0.6em;
+    margin-right: 4em;
+    display: block;
+  }
+
+  .myform {
+    width: 92%;
+  }
+
+  .bio {
+    width: 85%;
+    height: auto;
+    display: block;
+  }
+
+  .outerporfolio {
+    width: 90%;
+  }
+  .portfoliolink {
+    margin: 2em;
+    padding: 2em;
+    width: 75%;
+    float: left;
+  }
+
+  .portfoliotitle {
+    display: block;
+    right: -0.3%;
+  }
+}
