@@ -12,7 +12,7 @@ var topics = [
   "helicopter"
 ];
 var url =
-  "https://api.giphy.com/v1/gifs/search?api_key=${GIPHY_KEY}&limit=20&q=";
+  "https://api.giphy.com/v1/gifs/search?api_key=N7p2F29yh8mr64SfhT4uQGMlQt5EAH9D&limit=20&q=";
 
 // Create topics from array
 function createTopics() {
@@ -83,7 +83,7 @@ function gifDisplay() {
   });
   // Reset URL Value after everything loads
   url =
-    "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=20&q=";
+    "https://api.giphy.com/v1/gifs/search?api_key=N7p2F29yh8mr64SfhT4uQGMlQt5EAH9D&limit=20&q=";
 }
 
 // Form input click
