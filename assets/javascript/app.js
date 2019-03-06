@@ -1,5 +1,5 @@
 var topics = [
-  "Locamotive",
+  "Train",
   "Airplane",
   "Horse and Carriage",
   "Steamboat",
@@ -12,7 +12,7 @@ var topics = [
   "helicopter"
 ];
 var url =
-  "https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=20&q=";
+  "https://api.giphy.com/v1/gifs/search?api_key=${GIPHY_KEY}&limit=20&q=";
 
 // Create topics from array
 function createTopics() {
