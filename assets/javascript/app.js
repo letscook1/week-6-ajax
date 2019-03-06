@@ -100,7 +100,7 @@ $(".submit").on("click", function(event) {
     topics.push(newButton);
     createTopics();
   } else {
-    alert("You didn't enter anything, dum-dum!");
+    alert("You didn't enter anything, enter a search!");
     createTopics();
   }
   $("#userInput").val("");
